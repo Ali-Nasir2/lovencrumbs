@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Love & Crumbs — small-batch, bakery-style cookies made with premium halal ingredients in DFW, Texas.">
+  <title>Love & Crumbs | Small-Batch Cookies in DFW</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#263451">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Love and Crumbs home">
+        <span class="brand-mark" aria-hidden="true">C</span>
+        <span>Love<span>&amp;</span>Crumbs</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#story">Our story</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a>
+        <a class="button button-small" href="#order">Order cookies <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-grain"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow hero-reveal"><span class="eyebrow-pulse"></span> Small batch · Big heart · DFW, Texas</p>
+          <h1 class="hero-reveal">Baked to make your day <span class="rotating-word" aria-live="polite"><em>sweeter.</em></span></h1>
+          <p class="hero-intro hero-reveal">Thick, gooey, bakery-style cookies handcrafted with premium halal ingredients—and just the right amount of love.</p>
+          <div class="hero-actions hero-reveal">
+            <a class="button" href="#menu">See the menu <span>→</span></a>
+            <a class="text-link" href="#order">Plan a custom order <span>↗</span></a>
+          </div>
+          <div class="hero-proof hero-reveal">
+            <span class="faces" aria-hidden="true"><i>♥</i><i>LC</i><i>★</i></span>
+            <div><span class="proof-stars" aria-label="Five out of five stars">★★★★★</span><p><strong><span class="count-up" data-count="300">0</span>+ happy cookie lovers</strong><br><span>Loved across DFW</span></p></div>
+          </div>
+        </div>
+        <div class="hero-visual hero-reveal" data-parallax>
+          <img class="hero-photo" src="assets/images/herophoto.webp" alt="Stack of freshly baked Love & Crumbs cookies" fetchpriority="high" decoding="async">
+          <div class="ingredient-badge"><span>100%</span><small>premium halal<br>ingredients</small></div>
+          <div class="floating-note"><span>Freshly baked</span><strong>in small batches</strong></div>
+          <div class="cookie-doodle" aria-hidden="true">✦</div>
+        </div>
+      </div>
+      <div class="hero-marquee" aria-hidden="true"><div>PREMIUM HALAL INGREDIENTS <b>✦</b> HANDCRAFTED IN DFW <b>✦</b> BAKED WITH LOVE <b>✦</b> PREMIUM HALAL INGREDIENTS <b>✦</b> HANDCRAFTED IN DFW <b>✦</b></div></div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="wrap story-grid">
+        <div class="story-images reveal">
+          <img class="story-photo tall" src="assets/images/bakeratwork.webp" alt="Baker preparing a fresh batch of cookie dough" loading="lazy" decoding="async">
+          <img class="story-photo small" src="assets/images/freshbatch.webp" alt="Freshly baked cookies cooling after baking" loading="lazy" decoding="async">
+          <span class="stamp">Made in<br><strong>DFW</strong><br>with love</span>
+          <span class="story-spark spark-one" aria-hidden="true">✦</span><span class="story-spark spark-two" aria-hidden="true">✦</span>
+        </div>
+        <div class="story-copy reveal">
+          <p class="eyebrow">Our little love story</p>
+          <h2>It started with a craving for the <em>perfect cookie.</em></h2>
+          <p class="story-lead">Love &amp; Crumbs is a woman-owned small-batch bakery serving the DFW community. Every cookie is mixed, scooped, and baked by hand for crisp edges, soft centers, and the kind of bite you remember.</p>
+          <blockquote class="founder-note"><span>“</span><p>We don’t just bake cookies—we bake the little pause in your day that makes everything feel better.</p><cite>— Mahreen, Founder</cite></blockquote>
+          <div class="values">
+            <div class="value-card"><span class="value-icon">♡</span><strong><span data-story-count="100">0</span>%</strong><small>Halal ingredients</small></div>
+            <div class="value-card"><span class="value-icon">◌</span><strong>Small</strong><small>Batch baked</small></div>
+            <div class="value-card"><span class="value-icon">⌂</span><strong>Local</strong><small>Made in DFW</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu section" id="menu">
+      <div class="wrap">
+        <div class="section-heading reveal"><div><p class="eyebrow">The good stuff</p><h2>Meet your new <em>favorites.</em></h2></div><p>Our menu rotates with the seasons and our latest cravings. Every treat is baked fresh to order.</p></div>
+        <div class="filters reveal" role="tablist" aria-label="Filter menu">
+          <button class="filter active" data-filter="all" role="tab" aria-selected="true">All treats</button>
+          <button class="filter" data-filter="classics" role="tab">Classics</button>
+          <button class="filter" data-filter="stuffed" role="tab">Stuffed</button>
+          <button class="filter" data-filter="seasonal" role="tab">Seasonal</button>
+          <button class="filter" data-filter="boxes" role="tab">Gift boxes</button>
+        </div>
+        <div class="menu-grid" id="menu-grid"></div>
+        <p class="menu-note">Menu and pricing are <strong>[EDITABLE]</strong>. Have an allergy? Please ask before ordering.</p>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="wrap">
+        <div class="section-heading reveal"><div><p class="eyebrow">Fresh from the kitchen</p><h2>A little <em>eye candy.</em></h2></div><p>Tap any image to get a closer look. Your photos can be dropped in later without changing the layout.</p></div>
+        <div class="gallery-grid reveal">
+          <button class="gallery-item wide" data-label="Gooey cookie pull" data-image="assets/images/001.webp"><img src="assets/images/001.webp" alt="Gooey cookie being pulled apart" loading="lazy" decoding="async"><small>Gooey cookie pull</small></button>
+          <button class="gallery-item tall" data-label="Signature cookie box" data-image="assets/images/002.webp"><img src="assets/images/002.webp" alt="Love & Crumbs signature cookie box" loading="lazy" decoding="async"><small>Signature cookie box</small></button>
+          <button class="gallery-item" data-label="Fresh from the oven" data-image="assets/images/003.webp"><img src="assets/images/003.webp" alt="Cookies fresh from the oven" loading="lazy" decoding="async"><small>Fresh from the oven</small></button>
+          <button class="gallery-item" data-label="Custom event favors" data-image="assets/images/004.webp"><img src="assets/images/004.webp" alt="Custom cookie favors for an event" loading="lazy" decoding="async"><small>Custom event favors</small></button>
+          <button class="gallery-item wide" data-label="The perfect stack" data-image="assets/images/005.webp"><img src="assets/images/005.webp" alt="A stack of bakery-style cookies" loading="lazy" decoding="async"><small>The perfect stack</small></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <div class="wrap testimonial-wrap reveal">
+        <p class="eyebrow">Crumbs of kindness</p><h2>Love at first <em>bite.</em></h2>
+        <div class="testimonial-viewport"><div class="testimonial-track" id="testimonial-track"></div></div>
+        <div class="carousel-controls"><button id="prev-review" aria-label="Previous review">←</button><div class="carousel-dots" id="carousel-dots"></div><button id="next-review" aria-label="Next review">→</button></div>
+      </div>
+    </section>
+
+    <section class="order section" id="order">
+      <div class="wrap order-grid">
+        <div class="order-copy reveal"><p class="eyebrow">Cookies are calling</p><h2>Let’s bake something <em>special.</em></h2><p>Planning a celebration, sending a sweet thank-you, or simply restocking your cookie drawer? Tell us what you have in mind.</p><div class="order-callout"><span>♡</span><p><strong>Need 2+ dozen?</strong><br>Ask about custom flavors, packaging, and event favors.</p></div></div>
+        <form class="order-form reveal" id="order-form" novalidate>
+          <div class="form-row"><label>Full name<input name="name" type="text" placeholder="Your name" autocomplete="name" required><small class="error"></small></label><label>Email address<input name="email" type="email" placeholder="you@example.com" autocomplete="email" required><small class="error"></small></label></div>
+          <div class="form-row"><label>Order type<select name="type" required><option value="">Choose one</option><option>Cookie box</option><option>Event / catering</option><option>Custom order</option><option>Collaboration</option></select><small class="error"></small></label><label>Desired date<input name="date" type="date" required><small class="error"></small></label></div>
+          <label>Tell us the sweet details<textarea name="message" rows="4" placeholder="Flavors, quantity, occasion, allergies…" minlength="10" required></textarea><small class="error"></small></label>
+          <button class="button submit-button" type="submit">Send my inquiry <span>→</span></button><p class="form-disclaimer">Submitting opens a demo success state. Connect your form provider before launch. <strong>[EDITABLE]</strong></p>
+          <div class="form-success" role="status"><span>✓</span><h3>That was sweet!</h3><p>Your inquiry is ready. We’ll be in touch soon.</p><button type="button" class="text-link" id="reset-form">Send another</button></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="visit section" id="visit">
+      <div class="wrap visit-grid">
+        <div class="map-placeholder reveal"><span>[EDITABLE MAP EMBED]</span><div class="map-pin">♥</div></div>
+        <div class="visit-copy reveal"><p class="eyebrow">Find your fix</p><h2>Made with love in <em>DFW.</em></h2><div class="status-pill" id="store-status"><i></i><span>Checking hours…</span></div><p><strong>Love &amp; Crumbs</strong><br>[EDITABLE] DFW, Texas<br>Home bakery · Pickup details provided with order</p><div class="hours" id="hours-list"></div><a class="button" href="https://maps.google.com/?q=DFW+Texas" target="_blank" rel="noreferrer">Get directions <span>↗</span></a><p class="editable-note">[EDITABLE] Replace with exact pickup address and map link.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-top"><div><a class="brand brand-light" href="#home"><span class="brand-mark">C</span><span>Love<span>&amp;</span>Crumbs</span></a><p>Small-batch bakery-style cookies,<br>made with love in DFW.</p><div class="socials"><a href="https://instagram.com/lovencrumbs.tx/" target="_blank" aria-label="Instagram">ig</a><a href="#" aria-label="TikTok">tt</a><a href="mailto:hello@example.com" aria-label="Email">@</a></div></div><div class="footer-links"><strong>Explore</strong><a href="#story">Our story</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#order">Order</a></div><div class="newsletter"><p class="eyebrow">The sweet list</p><h3>Fresh drops, no spam.</h3><form id="newsletter-form"><label class="sr-only" for="newsletter-email">Email address</label><div><input id="newsletter-email" type="email" placeholder="Your email address" required><button aria-label="Subscribe">→</button></div><small id="newsletter-message">Get first dibs on seasonal flavors. [EDITABLE]</small></form></div></div>
+    <div class="wrap footer-bottom"><span>© <span id="year"></span> Love &amp; Crumbs. All rights reserved.</span><span>Made with ♥ and plenty of chocolate chips.</span></div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image" aria-hidden="true"><button class="lightbox-close" aria-label="Close">×</button><div class="lightbox-image"><img src="" alt=""><small></small></div></div>
+</body>
+</html>
